@@ -7,8 +7,6 @@ class Hash
     each do |key, value|
       if args.include?(value)
         out << key
-      elsif
-        nil 
       end
     end 
     out

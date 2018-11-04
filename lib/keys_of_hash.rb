@@ -3,7 +3,7 @@
 require 'pry'
 class Hash
   def keys_of(*args)
-    map do |key, value|
+    each do |key, value|
       binding.pry
     end 
   end
